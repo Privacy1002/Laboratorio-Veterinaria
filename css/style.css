@@ -1,0 +1,179 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #0b0a0a;
+    text-align: center;
+    padding: 55px 0;
+    background-image: url(../img/patron-perro-costuras-huellas-pata-huesos-corazones-bolas-textura-pie-gato-patron-huella-perro-huesos-textura-perro-ilustracion-vectorial-dibujada-mano-estilo-garabato-sobre-fondo-blanco_192280-1320.avif) ;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: left ;
+    padding-left: 28px;
+}
+
+header h2 {
+    font-size: 18px;
+    margin: 5px 0 0;
+}   
+
+nav {
+    background-color: rgb(0, 24, 240);
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom-left-radius: 15px;        
+    border-bottom-right-radius: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 27px;
+    color: #ffffff;
+    display: inline-block;
+    border-right: 3px solid #7e5454;
+    padding-right: 10px; 
+    margin-right: 10px; 
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: rgb(3, 14, 117);
+  
+    border-radius: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px; 
+    overflow: hidden;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.informacion-principal {
+    background-color: beige;
+    padding: 80px;
+    width: 30%;
+    float: left;
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.informacion-principal h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.informacion-principal p {
+    margin: 10px 0;
+}
+
+.informacion-principal a {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.informacion-secundaria {
+    background-color: beige;
+    padding: 80px;
+    width: 30%; 
+    float: left;
+    margin-right: 10px; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.formulario-cita {
+    border: 1px solid #ccc; 
+    padding: 50px; 
+    float: right; 
+    width: 30%; 
+    border-radius: 20px;
+    
+    background-color: rgb(142, 142, 142);
+}
+
+.formulario-cita h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:rgb(86, 9, 78);
+}
+
+.formulario-cita label {
+    display: block;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+
+.formulario-cita input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario-cita button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center; 
+    display: block; 
+    margin-left: 40px;
+    margin-top: 25px;
+    justify-content: center;
+    
+}
+
+.formulario-cita button:hover{
+    border-radius: 1px;
+    background-color: #333;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
